@@ -29,17 +29,21 @@ button {
   padding: 10px;
   border: solid 2px #DD4A26;
   border-radius: 4px;
-  margin-top: 6px;
+  margin-top: 30px;
   font-weight: 600;
   width: fit-content;
   margin-bottom: 50px;
+}
+
+h2 {
+  margin-top: 50px;
 }
 
 div {
   display: flex;
   flex-direction: column;
   flex: 1;
-  width: 690px;
+  width: 850px;
   flex-wrap: wrap;
   gap: 15px;
   justify-content: flex-end;
@@ -55,4 +59,5 @@ div {
     display: flex;
     font-size: 15px;
     font-weight: 200;
+    margin-top: -10px;
   }
